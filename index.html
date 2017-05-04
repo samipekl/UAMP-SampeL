@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!-- scripts -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="row">
+                <img id="blackface" src="assets/kuplat_patsas.gif">
+                <h2>Uusavuttomien musiikkipalvelu</h2>
+            </div>
+            <div id="row">
+                <h5>Täältä löydät helposti uutta tomaattikuivaa musiikkia kaikkin makuihin!</h5>
+            </div>
+        </header>
+
+        <p class="subtitle">Hae samankaltaisia artisteja</p>
+
+        <div class="row">
+            <div id="menu">
+                <select id="artistMenu">
+                        <option>Valitse artisti</option>
+                    </select>
+                <button id="searchbutton">Hae</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="input">
+                <input id="userinput" type="text" placeholder="hae artistia">
+                <button id="seek">Hae nimellä</button>
+            </div>
+        </div>
+
+        <p id="listheader">Lista samankaltaisista artisteista:</p>
+        <div id="artistContainer">
+        </div>
+
+        <div id="images">
+            <img id="railway" src="assets/railway.gif">
+            <br/>
+        </div>
+
+    </div>
+</body>
+
+</html>
